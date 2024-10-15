@@ -1,0 +1,184 @@
+//colors
+$white: #fff !default;
+$black: #000 !default;
+$gray: #8e8e8e !default;
+$primary: #246beb !default;
+$secondary: #003675 !default;
+$point: #e71825 !default;
+$danger: #eb003b !default;
+$warning: #ffb724 !default;
+$success: #008a1e !default;
+$information: #2768ff !default;
+
+//primary colors
+$primary-5: #eff5ff !default;
+$primary-10: #d3e1fb !default;
+$primary-20: #a7c4f7 !default;
+$primary-30: #7ca6f3 !default;
+$primary-40: #5089ef !default;
+$primary-60: #1d56bc !default;
+$primary-70: #16408d !default;
+$primary-80: #0e2b5e !default;
+$primary-90: #07152f !default;
+
+//secondary colors
+$secondary-5: #edf1f5 !default;
+$secondary-10: #cdd7e4 !default;
+$secondary-20: #b4c4d6 !default;
+$secondary-30: #99b0cb !default;
+$secondary-40: #2a5c96 !default;
+$secondary-60: #002b5e !default;
+$secondary-70: #002046 !default;
+$secondary-80: #00162f !default;
+$secondary-90: #000b17 !default;
+
+//point colors
+$point-5: #fdf2f3 !default;
+$point-10: #fad1d3 !default;
+$point-20: #f5a3a8 !default;
+$point-30: #f1747c !default;
+$point-40: #ec4651 !default;
+$point-60: #b9131e !default;
+$point-70: #8b0e16 !default;
+$point-80: #5c0a0f !default;
+$point-90: #2e0507 !default;
+
+//gray colors
+$gray-5: #f8f8f8 !default;
+$gray-10: #f0f0f0 !default;
+$gray-20: #e4e4e4 !default;
+$gray-30: #d8d8d8 !default;
+$gray-40: #c6c6c6 !default;
+$gray-50: #8e8e8e !default;
+$gray-60: #717171 !default;
+$gray-70: #555555 !default;
+$gray-80: #2d2d2d !default;
+$gray-90: #1d1d1d !default;
+
+//breakpoints
+$breakpoint-sm: 600px !default;
+$breakpoint-md: 1024px !default;
+$breakpoint-lg: 1920px !default;
+
+//spacers
+$spacer-0: 0 !default;
+$spacer-default: 0.1rem !default;
+$spacer-default2: 0.2rem !default;
+$spacer-full: 100% !default;
+
+//font style
+$font-base: "Pretendard GOV", sans-serif !default;
+$font-size-root: 62.5% !default; //10px 1rem으로 설정
+$font-size-base: 1.7rem !default;
+
+// font size
+$text-display-sm: 4rem !default;
+$text-display-md: 5rem !default;
+$text-display-lg: 6.6rem !default;
+
+$text-heading-sm: 3.2rem !default;
+$text-heading-md: 4rem !default;
+$text-heading-lg: 5rem !default;
+
+$text-title-xsm: 1.5rem !default;
+$text-title-sm: 1.7rem !default;
+$text-title-md: 1.9rem !default;
+$text-title-lg: 2.1rem !default;
+$text-title-xlg: 2.5rem !default;
+$text-title-xxlg: 3.2rem !default;
+
+$text-body-sm: 1.5rem !default;
+$text-body-md: 1.7rem !default;
+$text-body-lg: 1.9rem !default;
+
+$text-link-sm: 1.5rem !default;
+$text-link-md: 1.7rem !default;
+$text-link-lg: 1.9rem !default;
+
+$text-detail-sm: 1.3rem !default;
+$text-detail-md: 1.5rem !default;
+$text-detail-lg: 1.7rem !default;
+
+$text-label-xsm: 1.3rem !default;
+$text-label-sm: 1.5rem !default;
+$text-label-md: 1.7rem !default;
+$text-label-lg: 1.9rem !default;
+
+// font weight
+$font-light: 300 !default;
+$font-normal: 400 !default;
+$font-medium: 500 !default;
+$font-bold: 700 !default;
+$font-bolder: 800 !default;
+
+//line height style
+$line-height-none: 1 !default;
+$line-height-base: 1.5 !default;
+
+//border radius
+$rounded-1: 0.1rem !default;
+$rounded-2: 0.2rem !default;
+$rounded-4: 0.4rem !default;
+$rounded-6: 0.6rem !default;
+$rounded-8: 0.8rem !default;
+$rounded-10: 1rem !default;
+$rounded-12: 1.2rem !default;
+$rounded-full: 100% !default;
+
+// button settings
+$btn-height-xsm: 3.2rem !default;
+$btn-height-sm: 4rem !default;
+$btn-height-md: 4.8rem !default;
+$btn-height-lg: 5.6rem !default;
+$btn-height-xlg: 6.4rem !default;
+
+$btn-padding-x-xsm: 1rem !default;
+$btn-padding-x-sm: 1.2rem !default;
+$btn-padding-x-md: 1.6rem !default;
+$btn-padding-x-lg: 2rem !default;
+$btn-padding-x-xlg: 2.4rem !default;
+
+$btn-radius-xsm: 0.6rem !default;
+$btn-radius-sm: 0.6rem !default;
+$btn-radius-md: 0.8rem !default;
+$btn-radius-lg: 0.8rem !default;
+$btn-radius-xlg: 0.8rem !default;
+
+$btn-font-size-xsm: 1.5rem !default;
+$btn-font-size-sm: 1.7rem !default;
+$btn-font-size-md: 1.7rem !default;
+$btn-font-size-lg: 1.9rem !default;
+$btn-font-size-xlg: 1.9rem !default;
+
+// input settings
+$input-height-sm: 4rem !default;
+$input-height-md: 4.8rem !default;
+$input-height-lg: 5.6rem !default;
+$input-height-xlg: 8rem !default;
+
+$input-padding-x-sm: 1.6rem !default;
+$input-padding-x-md: 1.6rem !default;
+$input-padding-x-lg: 1.6rem !default;
+$input-padding-x-xlg: 2.4rem !default;
+
+$input-radius-sm: 0.6rem !default;
+$input-radius-md: 0.8rem !default;
+$input-radius-lg: 0.8rem !default;
+$input-radius-xlg: 1.2rem !default;
+
+$input-font-size-sm: 1.5rem !default;
+$input-font-size-md: 1.7rem !default;
+$input-font-size-lg: 1.9rem !default;
+$input-font-size-xlg: 2.5rem !default;
+
+// transition settings
+$transition-base: 0.4s ease-in-out !default;
+$transition-fade: opacity 0.4s linear !default;
+$transition-collapse: max-height 0.4s ease !default;
+$transition-collapse-width: width 0.4s ease !default;
+
+// box shadow
+$box-shadow-base: 2px 2px 2px 0px rgba(0, 0, 0, 0.15) !default;
+
+// image url
+$url: "../../img" !default;

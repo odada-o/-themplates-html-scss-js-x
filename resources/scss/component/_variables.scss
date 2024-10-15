@@ -116,7 +116,7 @@ $gray-colors: (
 ) !default;
 
 //prefix
-$prefix: krds- !default;
+// $prefix: krds- !default;
 
 //breakpoints
 $breakpoint-sm: 600px !default;
@@ -129,6 +129,10 @@ $breakpoints: (
 ) !default;
 
 //spacers
+$spacer-0: 0 !default;
+$spacer-default: 0.1rem !default;
+$spacer-default2: 0.2rem !default;
+$spacer-full: 100% !default;
 $spacers: (
   "0": "0",
   "default": ".1rem",
@@ -224,6 +228,12 @@ $font-size-label-sm: 1.5rem !default;
 $font-size-label-md: 1.7rem !default;
 $font-size-label-lg: 1.9rem !default;
 
+// font weight
+$fws-light: 300 !default;
+$fws-normal: 400 !default;
+$fws-medium: 500 !default;
+$fws-bold: 700 !default;
+$fws-bolder: 800 !default;
 $fws: (
   "light": 300,
   "normal": 400,
@@ -237,6 +247,14 @@ $line-height-none: 1 !default;
 $line-height-base: 1.5 !default;
 
 //border radius
+$border-radius-1: 0.1rem !default;
+$border-radius-2: 0.2rem !default;
+$border-radius-4: 0.4rem !default;
+$border-radius-6: 0.6rem !default;
+$border-radius-8: 0.8rem !default;
+$border-radius-10: 1rem !default;
+$border-radius-12: 1.2rem !default;
+$border-radius-full: 100% !default;
 $border-radius: (
   "1": ".1rem",
   "2": ".2rem",
@@ -249,346 +267,29 @@ $border-radius: (
 ) !default;
 
 //btn setting
-$btns: (
-  setting: (
-    //height
-    h:
-      (
-        "xsm": "3.2rem",
-        "sm": "4rem",
-        "md": "4.8rem",
-        "lg": "5.6rem",
-        "xlg": "6.4rem",
-      ),
-    //padding-x
-    px:
-      (
-        "xsm": "1rem",
-        "sm": "1.2rem",
-        "md": "1.6rem",
-        "lg": "2rem",
-        "xlg": "2.4rem",
-      ),
-    //border radius
-    rd:
-      (
-        "xsm": ".6rem",
-        "sm": ".6rem",
-        "md": ".8rem",
-        "lg": ".8rem",
-        "xlg": ".8rem",
-      ),
-    //font size
-    fz:
-      (
-        "xsm": "1.5rem",
-        "sm": "1.7rem",
-        "md": "1.7rem",
-        "lg": "1.9rem",
-        "xlg": "1.9rem",
-      ),
-  ),
-) !default;
+$btn-height-xsm: 3.2rem !default;
+$btn-height-sm: 4rem !default;
+$btn-height-md: 4.8rem !default;
+$btn-height-lg: 5.6rem !default;
+$btn-height-xlg: 6.4rem !default;
 
-//btn chips
-$btnChipOutline: (
-  setting: (
-    h: (
-      "md": "3.2rem",
-      "lg": "3.6rem",
-    ),
-    pd: (
-      "md": "0rem 1.2rem",
-      "lg": "0rem 1.2rem",
-    ),
-    rd: (
-      "md": "10rem",
-      "lg": "10rem",
-    ),
-    fz: (
-      "md": "1.5rem",
-      "lg": "1.7rem",
-    ),
-    gap: (
-      "md": ".2rem",
-      "lg": ".2rem",
-    ),
-    size: (
-      "md": "1.2rem",
-      "lg": "1.6rem",
-    ),
-  ),
-) !default;
+$btn-padding-x-xsm: 1rem !default;
+$btn-padding-x-sm: 1.2rem !default;
+$btn-padding-x-md: 1.6rem !default;
+$btn-padding-x-lg: 2rem !default;
+$btn-padding-x-xlg: 2.4rem !default;
 
-$btnChipFill: (
-  setting: (
-    h: (
-      "md": "3.2rem",
-      "lg": "3.6rem",
-    ),
-    pd: (
-      "md": "0rem 1.2rem",
-      "lg": "0rem 1.2rem",
-    ),
-    rd: (
-      "md": ".6rem",
-      "lg": ".6rem",
-    ),
-    fz: (
-      "md": "1.5rem",
-      "lg": "1.7rem",
-    ),
-  ),
-) !default;
+$btn-radius-xsm: 0.6rem !default;
+$btn-radius-sm: 0.6rem !default;
+$btn-radius-md: 0.8rem !default;
+$btn-radius-lg: 0.8rem !default;
+$btn-radius-xlg: 0.8rem !default;
 
-//input setting
-$inputs: (
-  setting: (
-    h: (
-      "sm": "4rem",
-      "md": "4.8rem",
-      "lg": "5.6rem",
-      "xlg": "8rem",
-    ),
-    px: (
-      "sm": "1.6rem",
-      "md": "1.6rem",
-      "lg": "1.6rem",
-      "xlg": "2.4rem",
-    ),
-    rd: (
-      "sm": ".6rem",
-      "md": ".8rem",
-      "lg": ".8rem",
-      "xlg": "1.2rem",
-    ),
-    fz: (
-      "sm": "1.5rem",
-      "md": "1.7rem",
-      "lg": "1.9rem",
-      "xlg": "2.5rem",
-    ),
-  ),
-) !default;
-
-//radio checkbox setting
-$radios: (
-  setting: (
-    size: (
-      "sm": "1.6rem",
-      "md": "2rem",
-      "lg": "2.4rem",
-    ),
-    chk: (
-      "sm": ".8rem",
-      "md": "1rem",
-      "lg": "1.4rem",
-    ),
-    pos: (
-      "sm": ".2rem",
-      "md": ".5rem",
-      "lg": "1rem",
-    ),
-    fz: (
-      "sm": "1.5rem",
-      "md": "1.7rem",
-      "lg": "1.9rem",
-    ),
-  ),
-) !default;
-
-//form chips
-$rdoChipOutline: (
-  setting: (
-    h: (
-      "sm": "3.2rem",
-      "md": "4rem",
-      "lg": "4.8rem",
-    ),
-    pd: (
-      "sm": "0 1rem",
-      "md": "0 1.2rem",
-      "lg": "0 1.6rem",
-    ),
-    rd: (
-      "sm": ".6rem",
-      "md": ".6rem",
-      "lg": ".8rem",
-    ),
-    fz: (
-      "sm": "1.5rem",
-      "md": "1.7rem",
-      "lg": "1.7rem",
-    ),
-  ),
-) !default;
-
-$chkChipOutline: (
-  setting: (
-    h: (
-      "sm": "3.2rem",
-      "md": "4rem",
-      "lg": "4.8rem",
-    ),
-    pd: (
-      "sm": "0 1rem 0 .8rem",
-      "md": "0 1.2rem 0 1rem",
-      "lg": "0 1.6rem 0 1.2rem",
-    ),
-    rd: (
-      "sm": ".6rem",
-      "md": ".6rem",
-      "lg": ".8rem",
-    ),
-    fz: (
-      "sm": "1.5rem",
-      "md": "1.7rem",
-      "lg": "1.7rem",
-    ),
-    gap: (
-      "sm": ".4rem",
-      "md": ".4rem",
-      "lg": ".4rem",
-    ),
-    ico: (
-      "sm": "1.6rem",
-      "md": "2rem",
-      "lg": "2rem",
-    ),
-  ),
-) !default;
-
-// checkbox
-$checkboxes: (
-  setting: (
-    size: (
-      "sm": "1.6rem",
-      "md": "2rem",
-      "lg": "2.4rem",
-    ),
-    primary-chk: (
-      "sm": "1.2rem",
-      "md": "1.6rem",
-      "lg": "2rem",
-    ),
-    secondary-chk: (
-      "md": "2rem",
-    ),
-    pos: (
-      "md": ".5rem",
-    ),
-    fz: (
-      "sm": "1.5rem",
-      "md": "1.7rem",
-      "lg": "1.9rem",
-    ),
-  ),
-) !default;
-
-//select setting
-$select: (
-  setting: (
-    h: (
-      "sm": "4rem",
-      "md": "4.8rem",
-      "lg": "5.6rem",
-    ),
-    pd: (
-      "sm": "0 5.2rem 0 1.6rem",
-      "md": "0 5.2rem 0 1.6rem",
-      "lg": "0 5.2rem 0 1.6rem",
-    ),
-    rd: (
-      "sm": ".6rem",
-      "md": ".8rem",
-      "lg": ".8rem",
-    ),
-    fz: (
-      "sm": "1.5rem",
-      "md": "1.7rem",
-      "lg": "1.9rem",
-    ),
-    rn: (
-      "sm": "1.6rem",
-      "md": "1.6rem",
-      "lg": "1.6rem",
-    ),
-    bgs: (
-      "sm": "2rem",
-      "md": "2rem",
-      "lg": "2.4rem",
-    ),
-  ),
-) !default;
-
-//switch setting
-$switch: (
-  setting: (
-    h: (
-      "md": "2rem",
-      "lg": "2.4rem",
-    ),
-    w: (
-      "md": "3.2rem",
-      "lg": "4rem",
-    ),
-    b: (
-      "md": "1.6rem",
-      "lg": "2rem",
-    ),
-    br: (
-      "md": "0.2rem",
-      "lg": "0.2rem",
-    ),
-    pd: (
-      "md": "0.8rem",
-      "lg": "0.8rem",
-    ),
-    rd: (
-      "md": "4rem",
-      "lg": "4rem",
-    ),
-    fz: (
-      "md": "1.7rem",
-      "lg": "1.9rem",
-    ),
-  ),
-) !default;
-
-//tab setting
-$tabs: (
-  setting: (
-    h: (
-      full: "5.6rem",
-      fill: "4.8rem",
-      line: "4.8rem",
-    ),
-    fz: (
-      full: "1.9rem",
-      fill: "1.9rem",
-      ilne: "1.9rem",
-    ),
-    px: (
-      full: "0",
-      fill: "1.6rem",
-      line: ".2rem",
-    ),
-    ml: (
-      full: "0",
-      fill: ".8rem",
-      line: "1.6rem",
-    ),
-    rd: (
-      full: ".8rem",
-      fill: ".8rem",
-      line: "0",
-    ),
-  ),
-) !default;
-
-//table setting
-
-//form control setting
+$btn-font-size-xsm: 1.5rem !default;
+$btn-font-size-sm: 1.7rem !default;
+$btn-font-size-md: 1.7rem !default;
+$btn-font-size-lg: 1.9rem !default;
+$btn-font-size-xlg: 1.9rem !default;
 
 //transition
 $transition-base: 0.4s ease-in-out !default;

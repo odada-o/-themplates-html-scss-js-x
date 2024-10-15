@@ -1,7 +1,6 @@
-@import 'variables';
-@import 'group_mixins';
+@import "variables";
 
-@import 'reset';
+@import "./mixins/breakpoints";
+@import "./mixins/utils";
 
-@import 'group_components';
-@import 'group_forms';
+@import "reset";

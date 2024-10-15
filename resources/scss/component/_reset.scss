@@ -3,9 +3,9 @@ body {
   position: relative;
   width: 100%;
   height: 100%;
-  font-family: $font-family-base;
-  color: var(--#{$prefix}gray-90);
-  font-weight: map-get($fws, normal);
+  font-family: $font-size-base;
+  color: $gray-90;
+  font-weight: $fws-normal;
   line-height: $line-height-base;
   word-break: keep-all;
   word-wrap: break-word;
@@ -23,12 +23,12 @@ body {
   @include focus();
 }
 ::-moz-selection {
-  background: var(--#{$prefix}secondary);
-  color: var(--#{$prefix}white);
+  background: $secondary;
+  color: $white;
 }
 ::selection {
   background: $secondary;
-  color: var(--#{$prefix}white);
+  color: $white;
 }
 
 body,
@@ -96,7 +96,7 @@ h4,
 h5,
 h6,
 strong {
-  font-weight: map-get($fws, bold);
+  font-weight: $fws-normal;
 }
 article,
 aside,
