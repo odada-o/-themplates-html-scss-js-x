@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KRDS themplate</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="페이지 제목" />
+    <meta property="og:description" content="페이지 설명" />
+    <meta property="og:image" content="http://www.mysite.com/article/article1_featured_image.jpg" />
+    <meta property="og:url" content="http://www.mysite.com/article/article1.html" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="페이지 제목" />
+    <meta name="twitter:description" content="페이지 설명" />
+    <meta name="twitter:image" content="http://www.mysite.com/article/article1.html" />
+    <meta name="twitter:domain" content="사이트 명" />
+    <link rel="shortcut icon" href="http://www.mysite.com/favicon.ico" />
+    <!-- css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../resources/css/styles.css" />
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div id="skip-nav">
+      <a href="#gnb">메뉴 바로가기</a>
+      <a href="#container">본문 바로가기</a>
+    </div>
+    <div id="wrap">
+      <header id="header">header</header>
+      <div class="slide">
+        <!-- Slider main container -->
+        <div class="swiper slide-intro">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="https://www.meconomynews.com/news/photo/202404/91635_111306_3112.jpg" alt="hera" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="https://i.ytimg.com/vi/RRQLQm0AXdU/maxresdefault.jpg" alt="hera" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="https://i.ytimg.com/vi/MZdGr8RPcT0/maxresdefault.jpg" alt="hera" />
+              </a>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+      <main id="container">content</main>
+      <footer id="footer">footer</footer>
+    </div>
+
+    <script>
+      var swiper = new Swiper(".slide-intro", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        // autoplay: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        // breakpoints: {
+        //   640: {
+        //     slidesPerView: 2,
+        //     spaceBetween: 20,
+        //   },
+        //   768: {
+        //     slidesPerView: 4,
+        //     spaceBetween: 40,
+        //   },
+        //   1024: {
+        //     slidesPerView: 5,
+        //     spaceBetween: 50,
+        //   },
+        // },
+      });
+    </script>
+  </body>
+</html>
